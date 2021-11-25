@@ -1178,7 +1178,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -54.372, -10.595, -3 }  // nominal, from "Satsana Customized" CAD
+#define NOZZLE_TO_PROBE_OFFSET { -54.372, -10.595, -2.30 }  // for "Satsana Customized" CAD
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1375,8 +1375,8 @@
 #define X_MIN_POS -5
 #define Y_MIN_POS -26
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE
-#define Y_MAX_POS Y_BED_SIZE
+#define X_MAX_POS 259
+#define Y_MAX_POS 200
 #define Z_MAX_POS 250
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
