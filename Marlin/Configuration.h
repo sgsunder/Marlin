@@ -1178,7 +1178,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -54.372, -10.595, -2.30 }  // for "Satsana Customized" CAD
+#define NOZZLE_TO_PROBE_OFFSET { -54.372, -10.595, -2.38 }  // for "Satsana Customized" CAD
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
